@@ -26,11 +26,11 @@
 		<meta name="author" content="ResponsiveWebInc">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet">
-		<link href="css/jquery.gritter.css" rel="stylesheet">
-		<link href="css/less-style.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+		{{!! Html::style('css/bootstrap.min.css') !!}}
+		{{!! Html::style('css/font-awesome.min.css') !!}}
+		{{!! Html::style('css/jquery.gritter.css') !!}}
+		{{!! Html::style('css/less-style.css') !!}}
+		{{!! Html::style('css/style.css') !!}}
 		<link rel="shortcut icon" href="#">
 	</head>
 	<body>
@@ -62,26 +62,26 @@
 			<div class="clearfix"></div>
 		</div>
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery-ui.min.js"></script>
-		<script src="js/bootstrap-datetimepicker.min.js"></script>
-		<script src="js/wysihtml5-0.3.0.js"></script>
-		<script src="js/prettify.js"></script>
-		<script src="js/bootstrap-wysihtml5.min.js"></script>
-		<script src="js/jquery.validate.js"></script>
-		<script src="js/jquery.steps.min.js"></script>
-		<script src="js/jquery.knob.js"></script>
-		<script src="js/jquery.slimscroll.min.js"></script>
-		<script src="js/jquery.dataTables.min.js"></script>
-		<script src="js/jquery.prettyPhoto.js"></script>
-		<script src="js/jquery.rateit.min.js"></script>
-	    <script src="js/moment.min.js"></script>
-	    <script src="js/fullcalendar.min.js"></script>
-		<script src="js/jquery.gritter.min.js"></script>
-		<script src="js/custom.notification.js"></script>
-		<script src="js/respond.min.js"></script>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/custom.js"></script>
+		{{!! Html::script('js/jquery.js') !!}}
+		{{!! Html::script('js/bootstrap.min.js') !!}}
+		{{!! Html::script('js/jquery-ui.min.js') !!}}
+		{{!! Html::script('js/bootstrap-datetimepicker.min.js') !!}}
+		{{!! Html::script('js/wysihtml5-0.3.0.js') !!}}
+		{{!! Html::script('js/prettify.js') !!}}
+		{{!! Html::script('js/bootstrap-wysihtml5.min.js') !!}}
+		{{!! Html::script('js/jquery.validate.js') !!}}
+		{{!! Html::script('js/jquery.steps.min.js') !!}}
+		{{!! Html::script('js/jquery.knob.js') !!}}
+		{{!! Html::script('js/jquery.slimscroll.min.js') !!}}
+		{{!! Html::script('js/jquery.dataTables.min.js') !!}}
+		{{!! Html::script('js/jquery.prettyPhoto.js') !!}}
+		{{!! Html::script('js/jquery.rateit.min.js') !!}}
+	    {{!! Html::script('js/moment.min.js') !!}}
+	    {{!! Html::script('js/fullcalendar.min.js') !!}}
+		{{!! Html::script('js/jquery.gritter.min.js') !!}}
+		{{!! Html::script('js/custom.notification.js') !!}}
+		{{!! Html::script('js/respond.min.js') !!}}
+		{{!! Html::script('js/html5shiv.js') !!}}
+		{{!! Html::script('js/custom.js') !!}}
 	</body>
 </html>

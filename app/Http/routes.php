@@ -10,14 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-//
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
-Route::get('/','Teste@show');
-
-Route::get('about', function()
-{
-	return View::make('pages.about'); // laravel 5 return View('pages.about');
+Route::group(['prefix' => 'commissions'], function(){
+	Route::resource('show','Teste@show');
 });
