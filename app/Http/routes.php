@@ -15,10 +15,7 @@
 //     return view('welcome');
 // });
 
-Route::get('/', function()
-{
-	return View::make('pages.home'); // laravel 5 return View('pages.home');
-});
+Route::get('/','Teste@show');
 
 Route::get('about', function()
 {
