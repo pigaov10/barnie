@@ -11,6 +11,6 @@
 |
 */
 
-Route::group(['prefix' => 'commissions'], function(){
+Route::group(['prefix' => 'tests'], function(){
 	Route::resource('show','Teste@show');
 });
